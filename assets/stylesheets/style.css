@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ul{
+	list-style: none;
+	margin-left: 25%;
+	margin-right: 10%
+}
+
+li {
+	float: left;
+	margin-top: 15px;
+}
+.nav a {
+	font-family: sans-serif;
+	font-size:14px;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px;
+	background-color: #000000;
+}
+.nav a:hover {
+	font-family: sans-serif;
+	font-size:14px;
+	color: #000000;
+	text-decoration: none;
+	padding: 10px;
+	background-color: #ffffff;
+}
+body {
+	left: 50%;
+	position: absolute;
+	margin-left: -450px;
+	background-image: url(../images/fondo.png);
+}
+
+header {
+	width: 900px;
+	height: 200px;
+	background-image: url(../images/header1.jpg);
+}
+
+nav {
+	width: 900px;
+	height: 50px;
+	background:#000000;
+	margin-top: -16px;
+}
+
+section {
+	width: 600px;
+	height: 600px;
+	background-image: url(../images/pizarras.jpg);
+	float: left;
+}
+
+article {
+	width: 250px;
+	height: 250px;
+	background: #E85456;
+	float: left;
+	margin: 2%;
+}
+
+aside {
+	width: 300px;
+	height: 600px;
+	background-image: url(../images/pizarraa.jpg);
+	float: left;
+	color: #FFFFFF;
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 24px;
+	text-align: center;
+	margin-right: 30px;
+}
+
+h2 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+	text-align: center;
+	color: #ffffff;
+}
+
+p {
+	font-size: 19px;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	padding: 14px;
+	margin-left: -20px;
+	margin-right: 16px;
+	color: #ffffff;
+}
+
+footer {
+	width: 900px;
+	height: 300px;
+}
+
+hr {
+	border: 1px dashed grey;
+}
+
+#clear{
+	clear: both;
+}
+
+.img_aside {
+	margin-left: 38px;
+}
+
+.waiter {
+	margin: 33px;
+	margin-left: -43px;
+}
+
+.red_copihue {
+	position: absolute;
+	margin-left: 12px;
+}
+.white_copihue {
+	position: relative;
+	margin-left: 225px;
+	margin-top: 50px;
+}
+
+.menu{
+	color: white;
+	font-family: 'rosewoodregular';
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-top: 0px;
+	line-height: 24px;
+	text-align: center;
+	line-height: 0;
+}
+
+.maps {
+	margin-left: 30px;
+	margin-top: 30px;
+	width: 250px;
+	height: 300px;
+	float: left;
+}
+
+.maps-2 {
+	margin-left: 30px;
+	margin-top: 30px;
+	width: 250px;
+	height: 300px;
+	float: left;
+}
+
+.direction {
+	font-size: 14px;
+	margin-left: 2px;
+}
+
+.img-maps {
+	margin-top: 28px;
+}
+
+.contact {
+	color: #B82820;
+	font-family: 'Lobster', cursive;
+	font-size: 36px;
+	text-align: left;
+	margin-left: 33px;
+}
+
+.contact-2 {
+	font-size: 15px;
+	text-align: initial;
+	margin-left: 20px;
+	line-height: 0;
+}
+
+.contact-3 {
+	margin-left: 30px;
+}
+
+.button {
+	margin-left: 38px;
+	margin-top: 11px;
+	color: #B82820;
+}
+
+.hr {
+	margin-top: 105px;
+}
+
+.img-contact {
+	margin-left: -239px;
+}
+
+.img-galery {
+	margin-top: 154px;
+	margin-left: 82px;
+}
+
+.img-galery2 {
+	float: left;
+	margin-left: 31px;
+	margin-top: 44px;
+}

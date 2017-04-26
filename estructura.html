@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Documento sin título</title>
+	<link rel="stylesheet" href="assets/stylesheets/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Ranga" rel="stylesheet">
+	<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+	var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+	var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+		var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+		if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+	}
+
+function MM_findObj(n, d) { //v4.01
+	var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+		d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+		if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+		for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+			if(!x && d.getElementById) x=d.getElementById(n); return x;
+	}
+
+function MM_swapImage() { //v3.0
+	var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+	if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('assets/images/imagen-01.jpg','assets/images/1n.jpg','assets/images/2n.jpg','assets/images/3n.jpg','assets/images/4n.jpg')"> 
+
+	<header></header>
+	<nav>
+		<ul>
+			<li class="nav"><a href="estructura.html" class="nav">Inicio</a></li>
+			<li class="nav"><a href="menu.html" class="nav">Menú</a></li>
+			<li class="nav"><a href="locales.html" class="nav">Locales</a></li>
+			<li class="nav"><a href="galeria.html" class="nav">Galería</a></li>
+			<li class="nav"><a href="contacto.html" class="nav">Contacto</a></li>
+		</ul>
+	</nav>
+	<section>
+		<article><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','assets/images/1n.jpg',1)"><img src="assets/images/1.jpg" alt="" width="250" height="250" id="Image1"></a>
+		</article>
+		<article><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','assets/images/2n.jpg',1)"><img src="assets/images/2.jpg" alt="" width="250" height="250" id="Image2"></a></article>
+		<article><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','assets/images/3n.jpg',1)"><img src="assets/images/3.jpg" alt="" width="250" height="250" id="Image3"></a></article>
+		<article><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','assets/images/4n.jpg',1)"><img src="assets/images/4.jpg" alt="" width="250" height="250" id="Image4"></a></article>
+	</section>
+	<aside>
+		<h1>Política de Calidad e Inocuidad Alimentaria</h1>
+		<p>Bar Liguria cuenta con un Departamento de Inocuidad Alimentaria formado por profesionales especializados en el área quienes desarrollan, aplican y evalúan de forma periódica una serie de lineamientos que nos comprometemos a cumplir para asegurar la inocuidad de nuestros alimentos,permitiendo así entregar a nuestros clientes alimentos seguros e inocuos.</p>
+		<img src="assets/images/aside.png" width="200" height="190" class="img_aside" alt=""/></aside>
+
+		<div id="clear"></div>
+
+		<footer><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.805690818988!2d-70.62132768480136!3d-33.428309880780255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf62e3cb4237%3A0x2e7eae7a98eeebcb!2sProvidencia+1353%2C+Providencia%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1490905991795" width="900" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></footer>
+
+	</body>
+	</html>
